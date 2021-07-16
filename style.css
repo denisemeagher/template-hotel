@@ -70,7 +70,7 @@ h1,h2,h3,h4,h5,h6 {
     margin-bottom: .5rem;
 }
 
-h1 { font-size: 5rem;}
+h1 { font-size: 7rem;}
 h2 { font-size: 2.5rem;}
 h3 { font-size: 1.5rem;}
 
@@ -100,7 +100,7 @@ a {
 }
 
 a:hover { 
-    color: #4e91ad;
+    color: #4E615B;
 }
 
 nav a { 
@@ -110,6 +110,14 @@ nav a {
 .fab {
     font-size: 1.5rem;
     padding-left: .75rem;
+}
+
+.bg-map a {
+    color: #fff;
+}
+
+.bg-map a:hover { 
+    color: #4E615B;
 }
 
 
@@ -140,9 +148,29 @@ footer p {
 .bg-lobby   { background-image: url('/images/the-bunker-lobby.jpg');}
 .bg-bar     { background-image: url('/images/the-bunker-bar.jpg');}
 .bg-sheets  { background-image: url('/images/the-bunker-sheets.jpg');}
-.bg-map     { background-image: url('/images/the-bunker-map.png');}
+.bg-map     { background-image: url('/images/map-sydney.png');}
 
 .social-banner { 
     background-image: url('images/the-bunker-roof.jpg');
     background-position: 50% 20%; 
+}
+
+
+
+/* ******************* media queries ***************************** */
+
+/* approx 768 in pixels  */
+@media(max-width: 48em) {
+    .hide-sm { display: none;}
+
+    .flex-flip-sm { flex-direction: column-reverse;}
+    h1 { font-size: 4rem;}
+    footer h2 { font-size: 3rem;}
+
+    .social-banner {
+        background: none;
+        background-color: #585858;
+    }
+
+    a:hover { color: #1C2A2C;}
 }

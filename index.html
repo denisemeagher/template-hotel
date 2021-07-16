@@ -3,7 +3,8 @@
     <head>
         <!--The title for SEO & broswer tabs-->
         <title>template-hotel</title>
-
+        <!-- viewport meta data -->
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <!-- gridlex -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css"/>
         <!-- font awesome -->
@@ -24,9 +25,9 @@
         </header>
 
         <!-- dark intro section -->
-        <section class="grid bg-featured text-light padded tall-60">
-            <div class="col-6 bg-image bg-bed padded"></div>
-            <div class="col-6-middle padded">
+        <section class="grid bg-featured text-light padded">
+            <div class="col-6_sm-12 bg-image bg-bed padded tall-50"></div>
+            <div class="col-6_sm-12-middle padded">
                 <h2>Lux.</h2>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fugiat placeat quaerat cumque. Quos porro iste tempore id, aperiam harum odio voluptatem pariatur officiis expedita deleniti voluptas iure, eveniet modi?</p>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium eum beatae.</p>
@@ -42,26 +43,30 @@
         </section>
 
 <!--------------------- Features / About blocks ----------------------->
+        <!-- block one -->
         <section class="grid">
-            <!-- block one -->
-            <div class="col-6-middle padded">
+            <div class="col-6_sm-12-middle padded">
                 <h2>Lobby Dreams</h2>
                 <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, aliquam nemo dolorum earum suscipit quod nihil, doloremque tenetur quo velit debitis, incidunt sapiente ullam saepe! Quam accusantium voluptatem dignissimos laborum?</p>
             </div>
-            <div class="col-6 bg-image bg-lobby tall-50"></div>
+            <div class="col-6_sm-12 bg-image bg-lobby tall-50"></div>
+         </section>   
             
             <!-- block two -->
-            <div class="col-6 bg-image bg-bar tall-50"></div>
-            <div class="col-6-middle padded">
+        <section class="grid flex-flip-sm">
+            <div class="col-6_sm-12 bg-image bg-bar tall-50"></div>
+            <div class="col-6_sm-12-middle padded">
                 <h2>The Bunker Bar</h2>
                 <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, aliquam nemo dolorum earum suscipit quod nihil, doloremque tenetur quo velit debitis, incidunt sapiente ullam saepe! Quam accusantium voluptatem dignissimos laborum?</p>
             </div>
-            <!-- block three -->
-            <div class="col-6-middle padded">
+        <!-- block three -->   
+        </section>  
+        <section class="grid">
+            <div class="col-6_sm-12-middle padded">
                 <h2>Fall in Love</h2>
                 <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, aliquam nemo dolorum earum suscipit quod nihil, doloremque tenetur quo velit debitis, incidunt sapiente ullam saepe! Quam accusantium voluptatem dignissimos laborum?</p>
             </div>
-            <div class="col-6 bg-image bg-sheets tall-50"></div>           
+            <div class="col-6_sm-12 hide-sm bg-image bg-sheets tall-50"></div>           
         </section>
 
 <!--------------------- Social Links  ----------------------->
@@ -76,15 +81,15 @@
         </section>
         
 <!------------------------- Map ------------------------------>
-        <section class="bg-image bg-map padded text-center tall-70">
-            <a href="#"> Get directions </a>
+        <section class="grid bg-image bg-map padded text-center tall-70">
+          <p class="col-12-bottom"><a href="#"> Get directions </a></p>  
         </section>
 
-        <footer class="grid bg-dark text-light">
-            <div class="col-7 padded">
+        <footer class="grid-spaceAround bg-dark text-light">
+            <div class="col-5_xs-10 padded">
                 <h2 class="logo">THE <br>BUNKER</h2>
             </div>
-            <div class="col-5-bottom padded">
+            <div class="col-5_xs-10-bottom padded">
                 <h4>Bienvenido</h4>
                 <p><a href="#">100 Main Street, Miami</a></p>
                 <p><a href="mailto:hello@thebunker.com">hello@thebunker.com</a></p>
